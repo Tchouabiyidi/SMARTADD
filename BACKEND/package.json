@@ -1,0 +1,34 @@
+{
+  "name": "smartadd-backend",
+  "version": "1.0.0",
+  "description": "Smart Billboard Advertising Platform REST API Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed:admin": "node src/seeders/seed_admin.js"
+  },
+  "keywords": [
+    "smartadd",
+    "smart-billboard",
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "SMARTADD",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.4.0",
+    "mysql2": "^3.12.0",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
